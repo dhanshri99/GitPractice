@@ -25,7 +25,7 @@ const data = [
     40.89, 36.68, 42, 35.7, 41.82, 42.11
 ];
 
-const svg2 = document.getElementById('svg2');
+
 // ...
 console.log(Math.min(...data));
 console.log(Math.max(...data));

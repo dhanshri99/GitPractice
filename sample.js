@@ -16,5 +16,7 @@ function drawchart(svg2){
     drawLine(svg2, {x1: 40, y1: 380, x2: 400, y2: 380});
     // y-axis
     drawLine(svg2, {x1: 40, y1: 20, x2: 40, y2: 380});
+    drawCircle(svg2, {cx: 140, cy: 400 - 300, r: 20, fill: 'Black'});
+    drawCircle(svg2, {cx: 260, cy: 400 - 300, r: 20, fill: 'Black'});
 
 }
